@@ -13,7 +13,7 @@
     s 18 18 18 300 q -50 -90 -112 0 q -50 90 -112 0 q -50 -90 -112 0
     s 0 -282 18 -300" stroke="url(#MyGradient)" stroke-width="10"   fill="url(#MyGradient)" />
 	<path id="Selection #4"
-        fill="none" stroke="black" stroke-width="1"
+        fill="white" stroke="white" stroke-width="1"
         d="M 56.00,161.00
            C 56.00,161.00 56.00,172.00 56.00,172.00
              61.99,169.75 70.11,168.08 73.83,175.04
