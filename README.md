@@ -10,7 +10,7 @@ Below is a set of logos that we might want to use for our mong(r) projects. Feel
 |tmongr|![tmongr](tmongr_logo.svg)|
 |imongr|![imongr](imongr_logo.svg)|
 |db|![db](db_mong_logo.svg)|
-|lp-rp|![lp-rp](lp-rp_mong_logo.svg)|
+|lb-rp|![lb-rp](lb-rp_mong_logo.svg)|
 |qmongrdata|![mongrdata](qmongrdata_mong_logo.svg)|
 |shinyproxy|![shinyproxy](shinyproxy_mong_logo.svg)|
 |mongr|![mongr](mongr_logo.svg)|
