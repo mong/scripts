@@ -26,8 +26,8 @@ if [[ "$TRAVIS_TAG" =~ $SEMVER_REGEX ]]; then
   docker push $DOCKER_ORG/$IMAGE_NAME
 elif [[ "$TRAVIS_BRANCH" == "master" ]]; then
   echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-  docker tag $DOCKER_ORG/$IMAGE_NAME $DOCKER_ORG/$IMAGE_NAME:test
-  docker push $DOCKER_ORG/$IMAGE_NAME:test
+  docker tag $DOCKER_ORG/$IMAGE_NAME $DOCKER_ORG/$IMAGE_NAME:master
+  docker push $DOCKER_ORG/$IMAGE_NAME:master
 else
   echo "Do not deploy. This is neither the master branch nor a release."
 fi
